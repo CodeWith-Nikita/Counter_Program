@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#countLabel{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    font-size: 10em;
+    font-weight: bold;
+    margin:0.3em;
+    color: white;
+}
+
+.btnContainer{
+    display:flex;
+    justify-content: center;
+}
+
+.buttons{
+    margin:2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    padding: 0.5em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    background-color: rgb(90, 244, 244);
+    border:2px solid black;
+    box-shadow: 0 0 0.3em white;
+
+    cursor:pointer;
+    transition:background-color 0.5s ease-in-out;
+}
+
+
+.buttons:hover{
+    background-color: rgb(19, 180, 180);
+}
