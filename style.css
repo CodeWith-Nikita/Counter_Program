@@ -6,6 +6,11 @@
 
 body{
     background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #countLabel{
@@ -21,6 +26,8 @@ body{
 .btnContainer{
     display:flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .buttons{
